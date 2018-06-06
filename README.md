@@ -1,4 +1,4 @@
-## Setup the fabot project by Laravel
+## Setup the faqbot project by Laravel
 
  Step 1: Open any project  VCS  Checkout from Version Control Git
  
@@ -18,10 +18,11 @@
  Step 6: Generate the key php artisan key:generate
  
  Step 7: Now set the database
- 	    Create a database.sqlite file
- 	    DB_CONNECTION=sqlite
- 	    DB_DATABASE= Path of the database.sqlite file
- 	    View -> Tool Windows -> Database -> Set up the sqlite connection
+ 	        Create a database.sqlite file
+ 	        DB_CONNECTION=sqlite
+ 	        DB_DATABASE= Path of the database.sqlite file
+ 	        View -> Tool Windows -> Database -> Set up the sqlite connection
+ 	    
  Step 8: Run php artisan migrate
  
  Step 9: Run php artisan migrate:refresh --seed
